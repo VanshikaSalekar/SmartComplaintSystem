@@ -272,7 +272,7 @@ const AdminComplaintDetails = () => {
                 Uploaded Image
               </p>
               <img
-                src={`http://localhost:5000/${complaint.image}`}
+                src={`https://smartcomplaintsystem-h2u5.onrender.com/${complaint.image}`}
                 alt="Complaint"
                 className="w-full max-w-xl rounded-2xl border border-slate-200 shadow-sm"
               />
