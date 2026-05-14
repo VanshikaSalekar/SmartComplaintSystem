@@ -103,6 +103,22 @@ const Login = () => {
           </button>
         </form>
 
+        <div className="mt-6 bg-slate-50 border border-slate-200 rounded-xl p-4 text-sm">
+          <h3 className="font-bold text-slate-800 mb-2">Demo Credentials</h3>
+
+          <p className="text-slate-700">
+            <span className="font-semibold">Admin Login:</span> admin@gmail.com / admin123
+          </p>
+
+          <p className="text-slate-700 mt-1">
+            <span className="font-semibold">Student Login:</span> student1@gmail.com / student123
+          </p>
+
+          <p className="text-xs text-slate-500 mt-2">
+            Note: These accounts are available only for demo/testing purposes.
+          </p>
+        </div>
+
         <p className="text-center text-gray-600 mt-6 text-sm">
           Don't have an account?{" "}
           <Link to="/register" className="text-blue-600 font-semibold hover:text-blue-700 hover:underline transition-colors">
