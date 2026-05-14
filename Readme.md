@@ -26,6 +26,17 @@ The **Smart Complaint Management System (SCMS)** is a MERN Stack web application
 
 ---
 
+## 🌍 Live Deployment Links
+
+| Service | URL |
+|---|---|
+| 🖥️ **Frontend (React)** | [smartcomplaintsystem-1-lv5q.onrender.com](https://smartcomplaintsystem-1-lv5q.onrender.com) |
+| ⚙️ **Backend (Node API)** | [smartcomplaintsystem-h2u5.onrender.com](https://smartcomplaintsystem-h2u5.onrender.com) |
+
+> **Note:** Hosted on Render's free tier — the server may take **30–60 seconds to wake up** on the first request after a period of inactivity.
+
+---
+
 ## 🎯 Objectives
 
 - ⚡ Faster, structured complaint registration
@@ -246,6 +257,31 @@ Resolved  ──or──  Rejected
 | Admin Dashboard | All complaints with filters and controls |
 | Reports Page | Analytics and statistics view |
 | Admin Complaint Details | Status update and remarks panel |
+
+---
+
+## ☁️ Deployment Details
+
+SCMS is deployed using **Render (Free Tier)** for both frontend and backend services.
+
+### Architecture
+
+| Layer | Service |
+|---|---|
+| 🖥️ **Frontend** | Render Static Site — React Vite production build |
+| ⚙️ **Backend** | Render Web Service — Node.js + Express.js |
+| 🗄️ **Database** | MongoDB Atlas — Free M0 Cluster |
+
+### ⚠️ Important Note on File Storage
+
+Render's free tier **does not provide persistent local file storage**. Complaint images uploaded via Multer may be lost after a server redeployment or restart.
+
+For a production-grade setup, integrate a cloud storage provider:
+
+| Provider | Use Case |
+|---|---|
+| **Cloudinary** | Easy image hosting with transformations |
+| **AWS S3** | Scalable object storage for any file type |
 
 ---
 
