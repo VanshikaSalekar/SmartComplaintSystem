@@ -3,7 +3,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://localhost:5001/api",
+  baseURL: "https://smartcomplaintsystem-h2u5.onrender.com",
 });
 
 // Automatically attach token in every request
