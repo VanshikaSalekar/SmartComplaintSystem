@@ -318,4 +318,4 @@ SCMS provides an efficient, transparent digital platform for hostel and campus c
 ## 📜 License
 
 This project was developed for **academic and internship purposes**.<br/>
-All rights reserved to **Vanshika Salekar**, Vadodara**.
+All rights reserved to **Vanshika Salekar**, Vadodara.
