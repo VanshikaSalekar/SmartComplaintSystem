@@ -4,8 +4,14 @@ import express from "express";
 import cors from "cors";
 import dotenv from "dotenv";
 import path from "path";
+import cors from "cors";
 
 import connectDB from "./config/db.js";
+
+app.use(cors({
+  origin: "https://smartcomplaintsystem-1-lv5q.onrender.com",
+  credentials: true
+}));
 
 // Routes
 import authRoutes from "./routes/authRoutes.js";
