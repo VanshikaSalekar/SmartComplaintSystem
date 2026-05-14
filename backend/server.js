@@ -7,11 +7,6 @@ import cors from "cors";
 
 import connectDB from "./config/db.js";
 
-app.use(cors({
-  origin: "https://smartcomplaintsystem-1-lv5q.onrender.com",
-  credentials: true
-}));
-
 // Routes
 import authRoutes from "./routes/authRoutes.js";
 import complaintRoutes from "./routes/complaintRoutes.js";
@@ -27,7 +22,11 @@ const app = express();
 connectDB();
 
 // Middlewares
-app.use(cors());
+app.use(cors({
+  origin: "https://smartcomplaintsystem-1-lv5q.onrender.com",
+  credentials: true,
+}));
+
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
