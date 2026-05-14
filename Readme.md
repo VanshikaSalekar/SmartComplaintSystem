@@ -306,8 +306,6 @@ For a production-grade setup, integrate a cloud storage provider:
 | **University** | Navrachana University, Vadodara |
 | **Internship Duration** | 2 Feb 2026 – 2 Jun 2026 |
 | **Technology** | MERN Stack |
-| **Faculty Mentor** | Mr. Humayd Shaikh |
-| **HOD / Academic Mentor** | Mr. Dhaval Mehta |
 
 ---
 
